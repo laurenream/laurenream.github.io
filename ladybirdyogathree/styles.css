@@ -1,66 +1,80 @@
 @import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
 @import url(http://fonts.googleapis.com/css?family=Crimson+Text);
-@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700);
 
 body {
 	margin: 0px;
 	padding: 0px;
+	background: url("images/blackandwhiteyogacropped2.jpg");
 	background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+	width: 100%;
+	background-color: rgba(147,71,231,.3);
 }
 nav h1 {
 	font-family: 'Averia Sans Libre', sans-serif;
 	font-size: 46px;
-	margin: 3px 0px 3px 0px;
-	color: #FF3914;
-	text-transform: none;
+	margin-top: 7px;
+	margin-bottom: 6px;
+	color: #FFFF60;
+	z-index: 1;
 }
 nav ul {
 	list-style-type: none;
 	text-align: center;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	font-family: 'Archivo Narrow', sans-serif;
-	font-size: 16px;
-	text-transform: uppercase;
-	padding-left: 0px;
+	font-family: 'Crimson Text', serif;
+	font-size: 24px;
 }
 nav li {
 	display: inline-block;
-	padding: 0px 40px;
+	padding: 0px 50px;
 }
 nav a {
 	text-decoration: none;
-	color: #404040;
+	color: #FFFF60;
+	z-index: 1;
 }
 nav a:hover {
-	color: #FF3914;
+	color: #7A7A7A;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(255,255,96,.5);
+	padding-top: 25px;
+}
+footer ul {
+	list-style-type: none;
+	font-family: 'Crimson Text', Georgia, Serif;
+	font-size: 18px;
+	color: #57443B;
+	text-align: center;
+	padding-bottom: 25px;
+}
+footer li {
+	display: inline-block;
+	padding-right: 60px;
+	color: #9347E7;
+}
+footer a {
+	text-decoration: none;
+	color: #9347E7;
+}
+footer a:hover {
+	color: #7A7A7A;
 }
 #austin {
 	text-align: center;
-	font-family: 'Archivo Narrow', sans-serif;
-	padding-bottom: 9px;
+	font-family: 'Crimson Text', serif;
+	padding-bottom: 10px;
 	letter-spacing: 4px;
 	font-size: 16px;
-	color: #FF3914;
-	text-transform: uppercase;
-}
-#container {
-	width: 100%;
-	height: 75px;
-	background-color: #ffffff;
-	opacity: .6;
-	float: left;
-}
-#hero {
-	width: 100%;
-}
-#findyourself {
-	font-family: 'Archivo Narrow', sans-serif;
-	color: #C760FF;
-	text-transform: uppercase;
-}
-p {
-	font-family: 'Archivo Narrow', sans-serif;
-	color: #CC8705;
+	color: #FFFF60;
+	z-index: 1;
+
 }
 
