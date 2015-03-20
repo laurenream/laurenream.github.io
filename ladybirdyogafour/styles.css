@@ -10,7 +10,7 @@ body {
 }
 nav {
 	width: 100%;
-	background-color: rgba(147,71,231,.4);
+	background-color: rgba(147,71,231,.3);
 }
 nav h1 {
 	font-family: 'Averia Sans Libre', sans-serif;
@@ -39,6 +39,13 @@ nav a {
 }
 nav a:hover {
 	color: #7A7A7A;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(255,255,96,.5);
+	padding-top: 25px;
 }
 footer ul {
 	list-style-type: none;
