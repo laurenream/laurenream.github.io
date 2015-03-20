@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre);
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url("images/blackandwhiteyogacropped2.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+nav {
+	width: 100%;
+	background-color: rgba(255,255,255,.6);
+}
+nav h1 {
+	font-family: 'Averia Sans Libre', sans-serif;
+	font-size: 46px;
+	margin-top: 7px;
+	margin-bottom: 6px;
+	color: #FF3914;
+	z-index: 1;
+}
+nav ul {
+	list-style-type: none;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Crimson Text', serif;
+	font-size: 24px;
+}
+nav li {
+	display: inline-block;
+	padding: 0px 50px;
+}
+nav a {
+	text-decoration: none;
+	color: #FF3914;
+	z-index: 1;
+}
+nav a:hover {
+	color: #7A7A7A;
+}
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(255,255,255,.6);
+	padding-top: 25px;
+}
+footer ul {
+	list-style-type: none;
+	font-family: 'Crimson Text', Georgia, Serif;
+	font-size: 18px;
+	color: #57443B;
+	text-align: center;
+	padding-bottom: 25px;
+}
+footer li {
+	display: inline-block;
+	padding-right: 60px;
+	color: #FF3914;
+}
+footer a {
+	text-decoration: none;
+	color: #57443B;
+	color: #FF3914;
+}
+footer a:hover {
+	color: #7A7A7A;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#austin {
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	padding-bottom: 10px;
+	letter-spacing: 4px;
+	font-size: 16px;
+	color: #FF3914;
+	z-index: 1;
+
+}
+
