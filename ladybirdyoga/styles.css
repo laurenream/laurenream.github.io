@@ -3,21 +3,22 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
 
 body {
-	margin: 0px;
-	padding: 0px;
+	margin: 0%;
+	padding: 0%;	
 	background-color: #FFC8AF;
+	font-size: 10px;
 }
 nav ul {
 	list-style-type: none;
 	text-align: center;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 0%;
+	margin-bottom: 0%;
 	font-family: 'Crimson Text', serif;
-	font-size: 24px;
 }
 nav li {
 	display: inline-block;
-	padding: 0px 65px;
+	padding: 0% 2em;
+	font-size: 2.5em
 }
 nav a {
 	text-decoration: none;
@@ -28,25 +29,20 @@ nav a:hover {
 }
 nav h1 {
 	font-family: 'Averia Sans Libre', sans-serif;
-	font-size: 46px;
-	margin-top: 15px;
-	margin-bottom: 6px;
+	font-size: 2em;
+	margin-top: .25em;
+	margin-bottom: .1em;
 	color: #57443B;
 }
 footer ul {
 	list-style-type: none;
 	font-family: 'Crimson Text', Georgia, Serif;
-	font-size: 18px;
+	font-size: 2em;
 	color: #57443B;
 	text-align: center;
-	padding-bottom: 25px;
 }
 footer li {
 	display: inline-block;
-	padding-right: 60px;
-}
-.footerinfo {
-	float: left;
 }
 .clearfix:after {
   visibility: hidden;
@@ -56,20 +52,12 @@ footer li {
   clear: both;
   height: 0;
 }
-#facebook {
-	padding-left: 25px;
-	display: inline-block;
-}
-#instagram {
-	display: inline-block;
-	padding-left: 0px;
-}
 #austin {
 	text-align: center;
 	font-family: 'Crimson Text', serif;
-	padding-bottom: 15px;
-	letter-spacing: 4px;
-	font-size: 16px;
+	padding-bottom: 1.3em;
+	letter-spacing: .5em;
+	font-size: 1.6em;
 	color: #57443B;
 }
 #hero {
@@ -78,3 +66,44 @@ footer li {
 #hero img {
 	width: 100%;
 }
+#contact {
+	display: inline-block;
+	position: relative;
+ 	top: 50%;
+  	transform: translateY(-50%);
+  	padding-right: 2em;
+}
+#address {
+	display: inline-block;
+	padding-right: 2em;
+}
+#phone {
+	display: inline-block;
+}
+#socialmedia {
+	display: inline-block;
+	padding-right: .3em;
+}
+#facebook {
+	display: inline-block;
+}
+#instagram {
+	display: inline-block;
+}
+@media only screen and (max-width: 480px) {
+	nav {
+		display: block;
+		color: red;
+		background-color: blue;
+	}
+	ul {
+		color: red;
+		background-color: blue;
+	}
+	li {
+		color: red;
+		background-color: blue;
+	}
+}
+
+  
