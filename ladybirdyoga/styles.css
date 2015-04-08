@@ -52,6 +52,17 @@ footer li {
   clear: both;
   height: 0;
 }
+#mainnav {
+	display: block;
+}
+#mobilenav {
+	display: none;
+}
+label {
+}
+#menu-toggle {
+	display: none;
+}
 #austin {
 	text-align: center;
 	font-family: 'Crimson Text', serif;
@@ -103,6 +114,12 @@ footer li {
 	li {
 		color: red;
 		background-color: blue;
+	}
+	#mobilenav {
+		display: block;
+	}
+	#mainnav {
+		display: none;
 	}
 }
 
