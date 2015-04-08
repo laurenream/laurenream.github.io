@@ -102,18 +102,6 @@ label {
 	display: inline-block;
 }
 @media only screen and (max-width: 480px) {
-	nav {
-		display: block;
-		color: red;
-		background-color: blue;
-	}
-	ul {
-		color: red;
-		background-color: blue;
-	}
-	li {
-		color: red;
-		background-color: blue;
 	}
 	#mobilenav {
 		display: block;
