@@ -1,0 +1,191 @@
+@import url(http://fonts.googleapis.com/css?family=Teko:300,400);
+@import url(http://fonts.googleapis.com/css?family=Alegreya);
+
+
+body {
+	margin: 0;
+}
+nav {
+	height: 52px;
+	position: relative;
+}
+nav h1 {
+	font-family: "Teko", Arial, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	margin: 17px auto 13px 20px;
+	float: left;
+}
+nav h1 a {
+	text-decoration: none;
+	color: black;
+}
+nav h1 a:hover {
+	color: rgb(222,41,16);
+}
+img {
+	width: 100%;
+}
+p {
+	font-family: "Alegreya", Georgia, sans-serif;
+	text-align: center;
+}
+footer {
+	text-align: center;
+	padding-top: 26px;
+	padding-bottom: 20px;
+	background-color: black; 
+	color: white;
+}
+label {
+	display: block;
+	list-style-type: none;
+}
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+/* ---- HAMBURGER --- */
+
+#menu-toggle {
+		display: none;
+	}
+#menu {
+	display: none;
+}
+#menu a{ 
+	text-decoration: none;
+	color: black;
+}
+#menu a:hover {
+	color: rgb(222,41,16);
+}
+#menu-toggle:checked + #menu {
+	display: block;
+	width: 20%;
+	font-family: "Teko", Arial, sans-serif;
+	text-align: right;
+	float: right;
+	list-style-type: none;
+	text-transform: uppercase;
+	background-color: white;
+	font-size: 23px;
+}
+/* ---- HAMBURGER ---- */
+
+#hamburgermenu img {
+	height: 35px;
+	width: 35px;
+	margin-top: 10px;
+	margin-right: 13px;
+	margin-top: 15px;
+	float: right;
+	margin: 20px;
+}
+
+#intro h1 {
+	font-family: "Teko", Arial, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 27px;
+	margin-top: 50px;
+}
+#intro p {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+	font-size: 18px;
+}
+#nextsectioncontainer {
+	float: right;
+	width: 288px;
+}
+#nextsection a {
+	font-family: "Teko", Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 27px;
+	float: right;
+	margin-right: 10px;
+	text-decoration: none;
+	color: white;
+}
+#nextsection a:hover {
+	color: rgb(222,41,16);
+}
+
+/* ---- SHOW/HIDE MENU ICONS ---- */
+
+.showhidemenu .redmenubutton {
+	display: none;
+}
+.showhidemenu:hover .blackmenubutton {
+	display: none;
+}
+.showhidemenu:hover .redmenubutton {
+	display: block;
+}
+/* ---- SHOW/HIDE MENU ICONS ---- */
+
+/* ---- 2 COLUMN LAYOUT ---- */
+.twocol {
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.twocol h1 {
+	font-family: "Teko", Arial, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 27px;
+	margin-top: 50px;
+}
+.twocol p {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+	font-size: 18px;
+	text-align: justify
+}
+.leftcol p {
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+}
+.rightcol p {
+	float: right;
+	width: 48%;
+	margin-left: 2%;
+}
+/* ---- 2 COLUMN LAYOUT ----*/
+
+/* ---- NEXT ICONS ---- */
+.nextbutton {
+	float: right;
+	width: 32px;
+	height: 32px;
+	margin-right: 15px;
+}
+.nextbuttonred {
+	float: right;
+	width: 32px;
+	height: 32px;
+	margin-right: 15px;
+}
+.showhidenextbutton .nextbuttonred {
+	display: none;
+}
+.showhidenextbutton:hover .nextbutton {
+	display: none;
+}
+.showhidenextbutton:hover .nextbuttonred {
+	display: block;
+}
+/* ---- NEXT ICONS ---- */
