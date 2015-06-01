@@ -132,36 +132,24 @@ label {
 }
 /* ---- SHOW/HIDE MENU ICONS ---- */
 
-/* ---- 2 COLUMN LAYOUT ---- */
-.twocol {
-	width: 60%;
-	margin-right: auto;
-	margin-left: auto;
-}
-.twocol h1 {
+/* ---- EVENT ---- */
+.event h1 {
 	font-family: "Teko", Arial, sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	font-size: 27px;
 	margin-top: 50px;
 }
-.twocol p {
+.eventcopy {
+	margin-bottom: 50px;
+}
+.eventcopy p {
 	width: 60%;
-	margin: 20px auto 75px auto;
+	margin: 20px auto 20px auto;
 	font-size: 18px;
-	text-align: justify; 
+	text-align: left;
 }
-.leftcol p {
-	float: left;
-	width: 48%;
-	margin-right: 2%;
-}
-.rightcol p {
-	float: right;
-	width: 48%;
-	margin-left: 2%;
-}
-/* ---- 2 COLUMN LAYOUT ----*/
+/* ---- EVENT ----*/
 
 /* ---- NEXT ICONS ---- */
 .nextbutton {
@@ -191,7 +179,7 @@ label {
 @media screen and (max-width: 400px) {
 	nav h1 {
 		margin: 10px 0px 5px 10px;
-		font-size: 24px;
+		font-size: 24fpx;
 	}
 	#hamburgermenu img {
 		margin-top: 10px;
