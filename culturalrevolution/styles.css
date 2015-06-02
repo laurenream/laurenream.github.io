@@ -207,7 +207,7 @@ label {
 /* ----MOBILE MEDIA QUERY --- */
 
 /* ---- NORMAL SCREEN MEDIA QUERY --- */
-@media screen and (max-width: 1415px) {
+@media screen and (max-width: 1015px) {
 	#hero {
 		display: block;
 	}
@@ -218,7 +218,7 @@ label {
 /* ---- NORMAL SCREEN MEDIA QUERY --- */
 
 /* ---- WIDE SCREEN MEDIA QUERY --- */
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1015px) {
 	#hero {
 		display: none;
 	}
