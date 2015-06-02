@@ -218,7 +218,7 @@ label {
 /* ---- NORMAL SCREEN MEDIA QUERY --- */
 
 /* ---- WIDE SCREEN MEDIA QUERY --- */
-@media screen and (min-width: 1415px) {
+@media screen and (min-width: 950px) {
 	#hero {
 		display: none;
 	}
