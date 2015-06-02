@@ -5,6 +5,10 @@
 body {
 	margin: 0;
 }
+html {
+	position: relative;
+	min-height: 100%;	
+}
 nav {
 	height: 52px;
 	position: relative;
@@ -36,6 +40,10 @@ footer {
 	padding-bottom: 20px;
 	background-color: black; 
 	color: white;
+	left: 0;
+	bottom: 0;
+	height: 36px;
+	width: 100%;
 }
 label {
 	display: block;
@@ -48,75 +56,6 @@ label {
     height: 0;
     line-height: 0;
     visibility: hidden;
-}
-
-/* ---- HAMBURGER --- */
-
-#menu-toggle {
-		display: none;
-	}
-#menu {
-	display: none;
-	margin: 5px auto 10px auto;
-}
-#menu a{ 
-	text-decoration: none;
-	color: black;
-}
-#menu a:hover {
-	color: rgb(222,41,16);
-}
-#menu-toggle:checked + #menu {
-	display: block;
-	width: 100%;
-	font-family: "Teko", Arial, sans-serif;
-	text-align: right;
-	float: right;
-	list-style-type: none;
-	text-transform: uppercase;
-	background-color: white;
-	font-size: 23px;
-	margin-right: 10px;
-}
-/* ---- HAMBURGER ---- */
-
-#hamburgermenu img {
-	height: 35px;
-	width: 35px;
-	margin-top: 10px;
-	margin-right: 13px;
-	float: right;
-	margin: 20px;
-}
-#intro h1 {
-	font-family: "Teko", Arial, sans-serif;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 27px;
-	margin-top: 50px;
-}
-#intro p {
-	width: 60%;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 75px;
-	font-size: 18px;
-}
-#nextsectioncontainer {
-	float: right;
-	width: 288px;
-}
-#nextsection a {
-	font-family: "Teko", Arial, sans-serif;
-	text-transform: uppercase;
-	font-size: 27px;
-	float: right;
-	margin-right: 10px;
-	text-decoration: none;
-	color: white;
-}
-#nextsection a:hover {
-	color: rgb(222,41,16);
 }
 
 /* ---- SHOW/HIDE MENU ICONS ---- */
@@ -175,7 +114,80 @@ label {
 }
 /* ---- NEXT ICONS ---- */
 
-/* ---- MEDIA QUERY --- */
+/* ---- HAMBURGER --- */
+
+#menu-toggle {
+		display: none;
+	}
+#menu {
+	display: none;
+	margin: 5px auto 10px auto;
+}
+#menu a { 
+	text-decoration: none;
+	color: black;
+}
+#menu a:hover {
+	color: rgb(222,41,16);
+}
+#current a {
+	color: #808080;
+}
+#menu-toggle:checked + #menu {
+	display: block;
+	width: 100%;
+	font-family: "Teko", Arial, sans-serif;
+	text-align: right;
+	float: right;
+	list-style-type: none;
+	text-transform: uppercase;
+	background-color: white;
+	font-size: 23px;
+	margin-right: 10px;
+}
+
+#hamburgermenu img {
+	height: 35px;
+	width: 35px;
+	margin-top: 10px;
+	margin-right: 13px;
+	float: right;
+	margin: 20px;
+}
+/* ---- HAMBURGER ---- */
+
+#intro h1 {
+	font-family: "Teko", Arial, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 27px;
+	margin-top: 50px;
+}
+#intro p {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 75px;
+	font-size: 18px;
+}
+#nextsectioncontainer {
+	float: right;
+	width: 288px;
+}
+#nextsection a {
+	font-family: "Teko", Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 27px;
+	float: right;
+	margin-right: 10px;
+	text-decoration: none;
+	color: white;
+}
+#nextsection a:hover {
+	color: rgb(222,41,16);
+}
+
+/* ---- MOBILE MEDIA QUERY --- */
 @media screen and (max-width: 400px) {
 	nav h1 {
 		margin: 10px 0px 5px 10px;
@@ -192,4 +204,26 @@ label {
     	font-size: 23px;
     }
 }
-/* ---- MEDIA QUERY --- */
+/* ----MOBILE MEDIA QUERY --- */
+
+/* ---- NORMAL SCREEN MEDIA QUERY --- */
+@media screen and (max-width: 1415px) {
+	#hero {
+		display: block;
+	}
+	#herowidescreen {
+		display: none;
+	}
+}
+/* ---- NORMAL SCREEN MEDIA QUERY --- */
+
+/* ---- WIDE SCREEN MEDIA QUERY --- */
+@media screen and (min-width: 1415px) {
+	#hero {
+		display: none;
+	}
+	#herowidescreen {
+		display: block;
+	}
+}
+/* ---- WIDE SCREEN MEDIA QUERY --- */
